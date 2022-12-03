@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "mindfully-partner-portal"
+  },
+  "targets": {
+    "mindfully-partner-portal": {
+      "hosting": {
+        "prod": [
+          "mindfully-partner-portal"
+        ],
+        "staging": [
+          "dev-mindfully-partner-portal"
+        ]
+      }
+    }
+  }
+}
